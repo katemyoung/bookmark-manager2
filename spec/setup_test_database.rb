@@ -8,3 +8,7 @@ def setup_test_database
 # Clear the bookmarks table
   connection.exec("TRUNCATE bookmarks;")
 end
+
+# could extract common set-up code to here:
+#def add_bookmark 
+#end 
